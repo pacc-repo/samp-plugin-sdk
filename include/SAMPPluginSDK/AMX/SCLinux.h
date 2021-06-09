@@ -14,7 +14,7 @@
  * For interactive use of SRUN/SDBG if would be much better to use GNU's readline package: the user would be able to 
  * have a complete emacs/vi like line editing system.
  */
-#include "getch.h"
+#include <SAMPPluginSDK/AMX/Getch.h>
 
 #define	stricmp(a,b)    strcasecmp(a,b)
 #define	strnicmp(a,b,c) strncasecmp(a,b,c)
