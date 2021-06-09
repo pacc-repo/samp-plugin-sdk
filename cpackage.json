@@ -1,17 +1,13 @@
 {
 	"name": "samp-plugin-sdk",
-	"projects": [
-		{
-			"name": "samp-plugin-sdk",
-			"type": "static lib",
-			"includeFolders": {
-				"public": [ "include" ]
-			},
-			"files": [
-				"include/SAMPPluginSDK/**.h",
-				"src/*.cpp"
-			],
-			"description": "(PACC port of:) SAMP Plugin SDK for San Andreas Multiplayer mod."
-		}
-	]
+	"type": "static lib",
+	"includeFolders": {
+		"public": [ "include" ]
+	},
+	"files": [
+		"include/SAMPPluginSDK/**.h",
+		"src/*.cpp"
+		],
+	"version": "1.0.0",
+	"description": "(PACC port of:) SAMP Plugin SDK for San Andreas Multiplayer mod."
 }
