@@ -8,6 +8,9 @@
 		"include/SAMPPluginSDK/**.h",
 		"src/*.cpp"
 	],
+	"filters": {
+		"system:linux": { "defines": "LINUX" }
+	},
 	"version": "1.0.0",
 	"description": "(PACC port of:) SAMP Plugin SDK for San Andreas Multiplayer mod."
 }
